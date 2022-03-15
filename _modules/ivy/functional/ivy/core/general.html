@@ -551,30 +551,30 @@
     <span class="k">return</span> <span class="n">_cur_framework</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">x</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="floormod"><a class="viewcode-back" href="../../../../../functional/ivy/core/general/floormod.html#ivy.functional.ivy.core.general.floormod">[docs]</a><span class="k">def</span> <span class="nf">floormod</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">],</span> <span class="n">y</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">])</span>\
-        <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">]:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Returns element-wise remainder of division.</span>
+<span class="c1"># def floormod(x: Union[ivy.Array, ivy.NativeArray], y: Union[ivy.Array, ivy.NativeArray])\</span>
+<span class="c1">#         -&gt; Union[ivy.Array, ivy.NativeArray]:</span>
+<span class="c1">#     &quot;&quot;&quot;</span>
+<span class="c1">#     Returns element-wise remainder of division.</span>
+<span class="c1">#</span>
+<span class="c1">#     :param x: Input array to floormod.</span>
+<span class="c1">#     :type x: array</span>
+<span class="c1">#     :param y: Denominator input for floormod.</span>
+<span class="c1">#     :type y: array</span>
+<span class="c1">#     :return: An array of the same shape and type as x, with the elements floor modded.</span>
+<span class="c1">#     &quot;&quot;&quot;</span>
+<span class="c1">#     return _cur_framework(x).floormod(x, y)</span>
 
-<span class="sd">    :param x: Input array to floormod.</span>
-<span class="sd">    :type x: array</span>
-<span class="sd">    :param y: Denominator input for floormod.</span>
-<span class="sd">    :type y: array</span>
-<span class="sd">    :return: An array of the same shape and type as x, with the elements floor modded.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="n">_cur_framework</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">floormod</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></div>
 
-
-<div class="viewcode-block" id="floor"><a class="viewcode-back" href="../../../../../functional/ivy/core/general/floor.html#ivy.functional.ivy.core.general.floor">[docs]</a><span class="k">def</span> <span class="nf">floor</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">])</span>\
-        <span class="o">-&gt;</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">]:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Returns element-wise largest integer not greater than x.</span>
-
-<span class="sd">    :param x: Input array to floor.</span>
-<span class="sd">    :type x: array</span>
-<span class="sd">    :return: An array of the same shape and type as x, with the elements floored to integers.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="n">_cur_framework</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">x</span><span class="p">)</span></div>
+<span class="c1"># def floor(x: Union[ivy.Array, ivy.NativeArray])\</span>
+<span class="c1">#         -&gt; Union[ivy.Array, ivy.NativeArray]:</span>
+<span class="c1">#     &quot;&quot;&quot;</span>
+<span class="c1">#     Returns element-wise largest integer not greater than x.</span>
+<span class="c1">#</span>
+<span class="c1">#     :param x: Input array to floor.</span>
+<span class="c1">#     :type x: array</span>
+<span class="c1">#     :return: An array of the same shape and type as x, with the elements floored to integers.</span>
+<span class="c1">#     &quot;&quot;&quot;</span>
+<span class="c1">#     return _cur_framework(x).floor(x)</span>
 
 
 <span class="c1"># noinspection PyShadowingBuiltins</span>

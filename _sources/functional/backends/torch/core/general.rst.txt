@@ -26,8 +26,6 @@ General
    general/maximum.rst
    general/clip.rst
    general/round.rst
-   general/floormod.rst
-   general/floor.rst
    general/abs.rst
    general/argmin.rst
    general/cast.rst

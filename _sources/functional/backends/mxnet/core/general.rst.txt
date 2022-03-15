@@ -18,8 +18,6 @@ General
    general/dtype_bits.rst
    general/clip.rst
    general/round.rst
-   general/floormod.rst
-   general/floor.rst
    general/abs.rst
    general/cast.rst
    general/arange.rst
